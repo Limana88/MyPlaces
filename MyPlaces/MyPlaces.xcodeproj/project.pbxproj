@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CCAD18AC2C492AAB00538693 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD18AB2C492AAB00538693 /* MainViewController.swift */; };
+		CCAD18AE2C493FE300538693 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD18AD2C493FE300538693 /* CustomTableViewCell.swift */; };
 		CCCEACE62C22F3E400FB89DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEACE52C22F3E400FB89DC /* AppDelegate.swift */; };
 		CCCEACE82C22F3E400FB89DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEACE72C22F3E400FB89DC /* SceneDelegate.swift */; };
 		CCCEACED2C22F3E400FB89DC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CCCEACEC2C22F3E400FB89DC /* Base */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		CCAD18AB2C492AAB00538693 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CCAD18AD2C493FE300538693 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CCCEACE22C22F3E300FB89DC /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCEACE52C22F3E400FB89DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCCEACE72C22F3E400FB89DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				CCCEACE52C22F3E400FB89DC /* AppDelegate.swift */,
 				CCAD18AB2C492AAB00538693 /* MainViewController.swift */,
+				CCAD18AD2C493FE300538693 /* CustomTableViewCell.swift */,
 				CCCEACE72C22F3E400FB89DC /* SceneDelegate.swift */,
 				CCCEACEB2C22F3E400FB89DC /* Main.storyboard */,
 				CCCEACEE2C22F3E600FB89DC /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			files = (
 				CCAD18AC2C492AAB00538693 /* MainViewController.swift in Sources */,
 				CCCEACE62C22F3E400FB89DC /* AppDelegate.swift in Sources */,
+				CCAD18AE2C493FE300538693 /* CustomTableViewCell.swift in Sources */,
 				CCCEACE82C22F3E400FB89DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
