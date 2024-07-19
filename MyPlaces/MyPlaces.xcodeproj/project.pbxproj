@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CCA025F32C4A904B00929D56 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA025F22C4A904B00929D56 /* PlaceModel.swift */; };
-		CCA025F52C4A9C9F00929D56 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA025F42C4A9C9F00929D56 /* NewPlaceViewController.swift */; };
+		CCA025F72C4AB6D100929D56 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA025F62C4AB6D100929D56 /* NewPlaceViewController.swift */; };
 		CCAD18AC2C492AAB00538693 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD18AB2C492AAB00538693 /* MainViewController.swift */; };
 		CCAD18AE2C493FE300538693 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD18AD2C493FE300538693 /* CustomTableViewCell.swift */; };
 		CCCEACE62C22F3E400FB89DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEACE52C22F3E400FB89DC /* AppDelegate.swift */; };
@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		CCA025F22C4A904B00929D56 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
-		CCA025F42C4A9C9F00929D56 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
+		CCA025F62C4AB6D100929D56 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 		CCAD18AB2C492AAB00538693 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CCAD18AD2C493FE300538693 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CCCEACE22C22F3E300FB89DC /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,6 @@
 		CCCEACD92C22F3E300FB89DC = {
 			isa = PBXGroup;
 			children = (
-				CCA025F42C4A9C9F00929D56 /* NewPlaceViewController.swift */,
 				CCCEACE42C22F3E400FB89DC /* MyPlaces */,
 				CCCEACE32C22F3E300FB89DC /* Products */,
 			);
@@ -72,6 +71,7 @@
 				CCCEACEE2C22F3E600FB89DC /* Assets.xcassets */,
 				CCCEACF02C22F3E600FB89DC /* LaunchScreen.storyboard */,
 				CCCEACF32C22F3E600FB89DC /* Info.plist */,
+				CCA025F62C4AB6D100929D56 /* NewPlaceViewController.swift */,
 			);
 			path = MyPlaces;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCAD18AC2C492AAB00538693 /* MainViewController.swift in Sources */,
-				CCA025F52C4A9C9F00929D56 /* NewPlaceViewController.swift in Sources */,
+				CCA025F72C4AB6D100929D56 /* NewPlaceViewController.swift in Sources */,
 				CCCEACE62C22F3E400FB89DC /* AppDelegate.swift in Sources */,
 				CCA025F32C4A904B00929D56 /* PlaceModel.swift in Sources */,
 				CCAD18AE2C493FE300538693 /* CustomTableViewCell.swift in Sources */,
